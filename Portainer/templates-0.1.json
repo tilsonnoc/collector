@@ -259,6 +259,29 @@
 				"set": "86"
 			}
 			]
-		}	
+		},	
+
+		{
+			"type": 3,
+			"title": "portainer_agent",
+			"description": "portainer_agent Server",
+			"note": "portainer_agent server  ",
+			"categories": [
+				"NOC"
+			],
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/tilsonnoc/collector",
+				"stackfile": "Portainer/stack/portainer_agent/docker-stack.yml"
+			},
+			"env": [{
+				"name": "envportainer_agenty",
+				"label": "NA",
+				"description": "NA",
+				"set": "86"
+			}
+			]
+		}
+
 	]
 }

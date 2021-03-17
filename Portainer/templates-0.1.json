@@ -39,7 +39,7 @@
 			},
 			"env": [{
 				"name": "smokeport",
-				"label": "http port number",
+				"label": "http port number (86)",
 				"description": "Assign the port to acccess smokeping use 86",
 				"set": "86"
 			}
@@ -83,8 +83,8 @@
 			},
 			"env": [{
 				"name": "envgreylog",
-				"label": "NA",
-				"description": "NA",
+				"label": "Web port (9006)",
+				"description": "To Access the server go to the http://IP:9006 ",
 				"set": "86"
 			}
 			]

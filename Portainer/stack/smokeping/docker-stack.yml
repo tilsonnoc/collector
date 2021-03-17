@@ -11,5 +11,5 @@ services:
       - /opt/docker_data/smokeping/config:/config
       - /opt/docker_data/smokeping/data:/data
     ports:
-      - {$smokeport}:80
+      - ${smokeport} :80
     restart: unless-stopped

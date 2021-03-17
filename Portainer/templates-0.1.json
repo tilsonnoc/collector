@@ -63,22 +63,23 @@
 		
 		{
 			"type": 3,
-			"title": "Test",
-			"description": "Test Hellow World -description",
-			"note": "Test Hellow World -note",
+			"title": "MQTT",
+			"description": "MQTT Server",
+			"note": "For sub and pub of mqtt ",
 			"categories": [
 				"NOC"
 			],
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",
-				"stackfile": "Portainer/stack/test/docker-stack.yml"
+				"stackfile": "Portainer/stack/MQTT/docker-stack.yml"
 			},
 			"env": [{
 				"name": "env_Name",
 				"label": "env_lable",
 				"description": "env_description"
-			}]
+			}
+			]
 		}
 	]
 }

@@ -32,6 +32,7 @@
 			"categories": [
 				"NOC"
 			],
+			"logo": "https://www.pngkey.com/png/detail/1-13458_free-png-smoke-png-images-transparent-smoke-png.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",
@@ -54,6 +55,7 @@
 			"categories": [
 				"NOC"
 			],
+			"logo": "https://cdn-ak.f.st-hatena.com/images/fotolife/d/daichi703n/20190316/20190316180848.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",
@@ -99,6 +101,7 @@
 			"categories": [
 				"NOC"
 			],
+			"logo": "https://drivers-pack.ru/wp-content/uploads/2019/03/iperf.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",
@@ -122,6 +125,7 @@
 			"categories": [
 				"NOC"
 			],
+			"logo": "https://mosquitto.org/images/mosquitto-text-side-28.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",
@@ -145,6 +149,7 @@
 			"categories": [
 				"NOC"
 			],
+			"logo": "https://www.etecenter.com/images/wireshark.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",

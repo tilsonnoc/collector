@@ -99,7 +99,8 @@
 			"env": [{
 				"name": "smokeport",
 				"label": "http port number",
-				"description": "Assign the port to acccess smokeping use 86"
+				"description": "Assign the port to acccess smokeping use 86",
+				"set": "86"
 			}
 			]
 		}

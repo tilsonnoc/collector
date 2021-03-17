@@ -59,7 +59,27 @@
 				"label": "Database root password",
 				"description": "Password used by the MySQL root user."
 			}]
-		}
+		},
 		
+		{
+			"type": 3,
+			"title": "Test",
+			"description": "Test Hellow World -description",
+			"note": "Test Hellow World -note",
+			"categories": [
+				"NOC"
+			],
+			"platform": "linux",
+			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
+			"repository": {
+				"url": "https://github.com/portainer/templates",
+				"stackfile": "stacks/wordpress/docker-compose.yml"
+			},
+			"env": [{
+				"name": "env_Name",
+				"label": "env_lable",
+				"description": "env_description"
+			}]
+		}
 	]
 }

@@ -76,6 +76,7 @@
 			"categories": [
 				"NOC"
 			],
+			"logo": "https://assets-global.website-files.com/5e9fae47f9a5b161fc3f7024/5f69ecdab29e533a9f46b3ef_Graylog%20-%20Logo%20-%20Color.svg",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",

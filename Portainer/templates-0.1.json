@@ -87,7 +87,7 @@
 			"type": 3,
 			"title": "Smokeping",
 			"description": "Smokeping Server",
-			"note": "ping server ",
+			"note": "light ping server  ",
 			"categories": [
 				"NOC"
 			],

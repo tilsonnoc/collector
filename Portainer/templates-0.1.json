@@ -41,9 +41,9 @@
 		},
 		{
 			"type": 2,
-			"title": "Wordpress",
-			"description": "Wordpress setup with a MySQL database",
-			"note": "Deploys a Wordpress instance connected to a MySQL database.",
+			"title": "Wordpress -2",
+			"description": "Wordpress setup with a MySQL database-2",
+			"note": "Deploys a Wordpress instance connected to a MySQL database.-2",
 			"categories": [
 				"CMS"
 			],
@@ -61,9 +61,9 @@
 		},
 		{
 			"type": 3,
-			"title": "Wordpress",
-			"description": "Wordpress setup with a MySQL database",
-			"note": "Deploys a Wordpress instance connected to a MySQL database.",
+			"title": "Wordpress -3",
+			"description": "Wordpress setup with a MySQL database-3",
+			"note": "Deploys a Wordpress instance connected to a MySQL database-3.",
 			"categories": [
 				"CMS"
 			],
@@ -148,9 +148,9 @@
 		},
 		{
 	    "type": 4,
-	    "title": "Wordpress 2",
-	    "description": "Wordpress setup with a MySQL database",
-	    "note": "Deploys a Wordpress instance connected to a MySQL database.",
+	    "title": "Wordpress 4",
+	    "description": "Wordpress setup with a MySQL database -4",
+	    "note": "Deploys a Wordpress instance connected to a MySQL database. -4",
 	    "stackfile": "https://raw.githubusercontent.com/portainer/templates/master/stacks/wordpress/edge/docker-stack.yml"
 	  },
 	  {

@@ -103,7 +103,162 @@
 				"set": "86"
 			}
 			]
-		}
+		},
 
+		{
+			"type": 3,
+			"title": "elastiflow",
+			"description": "elastiflow Server",
+			"note": "elastiflow server  ",
+			"categories": [
+				"NOC"
+			],
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/tilsonnoc/collector",
+				"stackfile": "Portainer/stack/elastiflow/docker-stack.yml"
+			},
+			"env": [{
+				"name": "envelastiflow",
+				"label": "NA",
+				"description": "NA",
+				"set": "86"
+			}
+			]
+		},
+
+		{
+			"type": 3,
+			"title": "greylog",
+			"description": "greylog Server",
+			"note": "greylog server  ",
+			"categories": [
+				"NOC"
+			],
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/tilsonnoc/collector",
+				"stackfile": "Portainer/stack/greylog/docker-stack.yml"
+			},
+			"env": [{
+				"name": "envgreylog",
+				"label": "NA",
+				"description": "NA",
+				"set": "86"
+			}
+			]
+		},
+
+		{
+			"type": 3,
+			"title": "iperf_web",
+			"description": "iperf_web Server",
+			"note": "iperf_web server  ",
+			"categories": [
+				"NOC"
+			],
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/tilsonnoc/collector",
+				"stackfile": "Portainer/stack/iperf_web/docker-stack.yml"
+			},
+			"env": [{
+				"name": "enviperf_web",
+				"label": "NA",
+				"description": "NA",
+				"set": "86"
+			}
+			]
+		},
+
+
+		{
+			"type": 3,
+			"title": "mosquitto",
+			"description": "mosquitto Server",
+			"note": "mosquitto server  ",
+			"categories": [
+				"NOC"
+			],
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/tilsonnoc/collector",
+				"stackfile": "Portainer/stack/mosquitto/docker-stack.yml"
+			},
+			"env": [{
+				"name": "envmosquitto",
+				"label": "NA",
+				"description": "NA",
+				"set": "86"
+			}
+			]
+		},
+
+
+		{
+			"type": 3,
+			"title": "wireshark",
+			"description": "wireshark Server",
+			"note": "wireshark server  ",
+			"categories": [
+				"NOC"
+			],
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/tilsonnoc/collector",
+				"stackfile": "Portainer/stack/wireshark/docker-stack.yml"
+			},
+			"env": [{
+				"name": "envmwireshark",
+				"label": "NA",
+				"description": "NA",
+				"set": "86"
+			}
+			]
+		},
+
+		{
+			"type": 3,
+			"title": "zabbix_agent",
+			"description": "zabbix_agent Server",
+			"note": "zabbix_agent server  ",
+			"categories": [
+				"NOC"
+			],
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/tilsonnoc/collector",
+				"stackfile": "Portainer/stack/zabbix_agent/docker-stack.yml"
+			},
+			"env": [{
+				"name": "envzabbix_agent",
+				"label": "NA",
+				"description": "NA",
+				"set": "86"
+			}
+			]
+		},		
+
+		{
+			"type": 3,
+			"title": "zabbix_proxy",
+			"description": "zabbix_proxy Server",
+			"note": "zabbix_proxy server  ",
+			"categories": [
+				"NOC"
+			],
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/tilsonnoc/collector",
+				"stackfile": "Portainer/stack/zabbix_proxy/docker-stack.yml"
+			},
+			"env": [{
+				"name": "envzabbix_proxy",
+				"label": "NA",
+				"description": "NA",
+				"set": "86"
+			}
+			]
+		}	
 	]
 }

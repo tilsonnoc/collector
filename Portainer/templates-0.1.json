@@ -10,6 +10,7 @@
 			"categories": [
 				"NOC"
 			],
+			"logo": "https://jelastic.com/blog/wp-content/uploads/2017/09/Eclipse-Mosquitto-logo.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",
@@ -172,6 +173,7 @@
 			"categories": [
 				"NOC"
 			],
+			"logo": "https://assets.zabbix.com/img/logo/zabbix_logo_500x131.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",
@@ -194,6 +196,7 @@
 			"categories": [
 				"NOC"
 			],
+			"logo": "https://assets.zabbix.com/img/logo/zabbix_logo_500x131.png",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",
@@ -216,6 +219,7 @@
 			"categories": [
 				"NOC"
 			],
+			"logo": "https://www.portainer.io/hubfs/Brand%20Assets/Logos/Portainer%20Logo%20Solid%20All%20-%20Blue%20no%20padding.svg",
 			"platform": "linux",
 			"repository": {
 				"url": "https://github.com/tilsonnoc/collector",

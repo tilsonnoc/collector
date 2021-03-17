@@ -1,17 +1,12 @@
 version: '3'
-
 services:
-  oms:
-    image: microsoft/oms
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    environment:
-      WSID: ${AZURE_WORKSPACE_ID}
-      KEY: ${AZURE_PRIMARY_KEY}
-    deploy:
-      mode: global
-      restart_policy:
-        condition: on-failure
-    ports:
-      - "25225:25225"
-      - "25224:25224/udp"
+    eclipse-mosquitto:
+        network_mode: cnet
+        ports:
+            - '1883:1883'
+            - '9001:9001'
+        volumes:
+            - '/opt/docker_data/mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf'
+            - /opt/docker_data/mosquitto/data:/mosquitto/data/
+            - /opt/docker_data/mosquitto/log:/mosquitto/log/
+        image: eclipse-mosquitto

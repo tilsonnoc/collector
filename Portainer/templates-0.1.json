@@ -72,8 +72,8 @@
 			"platform": "linux",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
 			"repository": {
-				"url": "https://github.com/portainer/templates",
-				"stackfile": "stacks/wordpress/docker-compose.yml"
+				"url": "https://github.com/tilsonnoc/collector",
+				"stackfile": "Portainer/stack/test/docker-stack.yml"
 			},
 			"env": [{
 				"name": "env_Name",

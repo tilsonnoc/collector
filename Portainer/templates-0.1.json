@@ -81,5 +81,28 @@
 			}
 			]
 		}
+
+
+		{
+			"type": 3,
+			"title": "Smokeping",
+			"description": "Smokeping Server",
+			"note": "ping server ",
+			"categories": [
+				"NOC"
+			],
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/tilsonnoc/collector",
+				"stackfile": "Portainer/stack/smokeping/docker-stack.yml"
+			},
+			"env": [{
+				"name": "smokeport",
+				"label": "http port number",
+				"description": "Assign the port to acccess smokeping use 86"
+			}
+			]
+		}
+
 	]
 }

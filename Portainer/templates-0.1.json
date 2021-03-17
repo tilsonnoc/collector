@@ -65,7 +65,7 @@
 			"type": 3,
 			"title": "MQTT",
 			"description": "MQTT Server",
-			"note": "For sub and pub of mqtt ",
+			"note": "For sub and pub for mqtt ",
 			"categories": [
 				"NOC"
 			],
